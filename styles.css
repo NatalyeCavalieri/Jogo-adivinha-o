@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(56, 42, 74);
+  background: radial-gradient(
+    circle,
+    rgba(56, 42, 74, 1) 0%,
+    rgba(8, 11, 34, 1) 100%
+  );
+  color: white;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+#app {
+  width: 80%;
+  max-width: 400%;
+  margin-inline: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  place-content: center;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: grey;
+}
+
+input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 50px;
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(28, 12, 59);
+}
+
+button {
+  border: none;
+  background: rgb(87, 33, 157);
+  height: 50px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  transition: filter 0.3s;
+}
+
+button:hover {
+  background: rgb(81, 31, 146);
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
+h5 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: gray;
+  transition: opacity 1s;
+}
+
+h4 {
+  font-size: 20px;
+  color: cadetblue;
+  transition: opacity 1s;
+}
+
+@media (max-width: 515px) {
+  p {
+    color: grey;
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
