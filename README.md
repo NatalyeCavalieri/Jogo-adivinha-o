@@ -1,5 +1,5 @@
-<h1> Jogo da adivinhação </h1>
+<h1 align= "center" style="color: orange"> Jogo da adivinhação </h1>
 
-<h3> Maratona Explorer #01<h3>
+<h3 align= "center" style="color: blue"> Maratona Explorer #01<h3>
 
-<img src="./jogo da adivinhação1.png">
+<img align= "center" src="./jogo da adivinhação1.png">
